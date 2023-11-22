@@ -1,0 +1,23 @@
+.Card {
+    height: 600px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 3px 2px 10px 4px rgb(91 91 123 / 22%);
+    overflow: hidden;
+}
+  
+.Card-img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+  
+.Card-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.Card-button {
+    justify-content: center;
+}
+

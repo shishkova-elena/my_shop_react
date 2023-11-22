@@ -1,0 +1,49 @@
+.CommonButton {
+    padding: 5px 15px;
+    text-transform: uppercase;
+    background: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: .2s background-color, .2s color;
+
+        &--light {
+            background: white;
+            border: 1px solid rgba(25, 118, 210, 0.5);
+            color: #1976d2;
+            
+            &:hover {
+                color: white;
+                background: rgb(119, 119, 226);
+            }
+
+            &.CommonButton--disabled {
+                border-color: grey;
+                background-color: white;
+                color: grey;
+            }
+        }
+
+        &--dark {
+            background-color: rgb(119, 119, 226);
+            border: 1px solid rgba(25, 118, 210, 0.5);
+            color: white;
+
+            &:hover {
+                background-color: white;
+                color: #1976d2;
+            }
+
+            & .CommonButton--disabled {
+                border-color: grey;
+                background-color: white;
+                color: grey;
+            }
+        }
+
+        &--disabled {
+            pointer-events: none;
+        }
+}
+
+
+

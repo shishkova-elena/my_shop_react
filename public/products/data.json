@@ -1,0 +1,74 @@
+[
+        {
+            "id": 1,
+            "title": "Название детали",
+            "vendorcode": "Артикул",
+            "description": "Описание",
+            "price": "цена",
+            "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
+        },
+        {
+            "id": 2,
+            "title": "Название детали",
+            "vendorcode": "Артикул",
+            "description": "Описание",
+            "price": "цена",
+            "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
+        },
+        {
+            "id": 3,
+            "title": "Название детали",
+            "vendorcode": "Артикул",
+            "description": "Описание",
+            "price": "цена",
+            "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
+        },
+        {
+            "id": 4,
+            "title": "Название детали",
+            "vendorcode": "Артикул",
+            "description": "Описание",
+            "price": "цена",
+            "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
+        },
+        {
+            "id": 5,
+            "title": "Название детали",
+            "vendorcode": "Артикул",
+            "description": "Описание",
+            "price": "цена",
+            "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
+        },
+        {
+            "id": 6,
+            "title": "Название детали",
+            "vendorcode": "Артикул",
+            "description": "Описание",
+            "price": "цена",
+            "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
+        },
+        {
+            "id": 7,
+            "title": "Название детали",
+            "vendorcode": "Артикул",
+            "description": "Описание",
+            "price": "цена",
+            "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
+        },
+        {
+            "id": 8,
+            "title": "Название детали",
+            "vendorcode": "Артикул",
+            "description": "Описание",
+            "price": "цена",
+            "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
+        },
+        {
+            "id": 9,
+            "title": "Название детали",
+            "vendorcode": "Артикул",
+            "description": "Описание",
+            "price": "цена",
+            "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
+        }
+    ]
