@@ -4,7 +4,7 @@
             "title": "Название детали",
             "vendorcode": "Артикул",
             "description": "Описание",
-            "price": "цена",
+            "price": 100,
             "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
         },
         {
@@ -12,7 +12,7 @@
             "title": "Название детали",
             "vendorcode": "Артикул",
             "description": "Описание",
-            "price": "цена",
+            "price": 200,
             "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
         },
         {
@@ -20,7 +20,7 @@
             "title": "Название детали",
             "vendorcode": "Артикул",
             "description": "Описание",
-            "price": "цена",
+            "price": 300,
             "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
         },
         {
@@ -28,7 +28,7 @@
             "title": "Название детали",
             "vendorcode": "Артикул",
             "description": "Описание",
-            "price": "цена",
+            "price": 400,
             "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
         },
         {
@@ -36,7 +36,7 @@
             "title": "Название детали",
             "vendorcode": "Артикул",
             "description": "Описание",
-            "price": "цена",
+            "price": 500,
             "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
         },
         {
@@ -44,7 +44,7 @@
             "title": "Название детали",
             "vendorcode": "Артикул",
             "description": "Описание",
-            "price": "цена",
+            "price": 600,
             "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
         },
         {
@@ -52,7 +52,7 @@
             "title": "Название детали",
             "vendorcode": "Артикул",
             "description": "Описание",
-            "price": "цена",
+            "price": 700,
             "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
         },
         {
@@ -60,7 +60,7 @@
             "title": "Название детали",
             "vendorcode": "Артикул",
             "description": "Описание",
-            "price": "цена",
+            "price": 800,
             "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
         },
         {
@@ -68,7 +68,7 @@
             "title": "Название детали",
             "vendorcode": "Артикул",
             "description": "Описание",
-            "price": "цена",
+            "price": 900,
             "img": "https://sun9-60.userapi.com/impg/-SkiN1PQtnSYEV4UlTNYZ6zvGPY5hLjspFBhaQ/a5A0aFp0YVw.jpg?size=466x329&quality=95&sign=c4ea552ee51af1a48846718930f74124&type=album"
         }
     ]

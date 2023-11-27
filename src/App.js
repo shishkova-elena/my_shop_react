@@ -6,6 +6,7 @@ import IndexPage  from './pages/Index/Index';
 import ContactsPage from './pages/Contacts/Contacts';
 import DefaultLayout from './components/Layouts/DefaultLayout';
 import ProductPage from './pages/Product/Product';
+import BasketPage from './pages/Basket/Basket';
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <Route path={'/'} element={<DefaultLayout />}>
           <Route index element={<IndexPage />}/>
           <Route path={'contacts'} element={<ContactsPage />}/>
+          <Route path={'basket'} element={<BasketPage />}/>
           <Route path={'products'}>
             <Route path={':userId'} element={<ProductPage />}/>
           </Route>

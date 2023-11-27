@@ -6,19 +6,21 @@ import TextField from '@mui/material/TextField';
 import Button from '../../components/Buttons/Button';
 import { BUTTON_THEMES } from '../../utils/Constants';
 import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { getProducts } from '../../store/products/productsSlice';
 
 
 function IndexPage () {
 
-    const [products, setProducts] = useState([0])
-    const [isSubscribeButtonDisabled, setIsSubscribeButtonDisabled] = useState(false)
+    //const [products, setProducts] = useState([0])
+   const [isSubscribeButtonDisabled, setIsSubscribeButtonDisabled] = useState(false)
+
+    const [products, isLoading] = useSelector((state) => [state.products.entities, state.products.loading])
+    const dispatch = useDispatch()
   
     useEffect(() => {
-      fetch ("my_shop_react/products/data.json")
-            .then((response) => response.json())
-            .then((result) => {
-              setProducts(result)
-            })
+      dispatch(getProducts())
+
     }, [])
   
     const onSubscribe = () => {
@@ -37,7 +39,7 @@ function IndexPage () {
                 </div>
                 <div className='App-container'>
                     {
-                    products.map ((item, index)=> {
+                    !isLoading && products.map ((item, index)=> {
                         return <Card key={index}
                                     title={item.title}
                                     id={item.id}
@@ -47,6 +49,10 @@ function IndexPage () {
                                     price={item.price}
                                     img={item.img} />
                     })
+                    }
+
+                    {
+                      isLoading && <h2>Загрузка...</h2>
                     }
                 </div>
         </>
