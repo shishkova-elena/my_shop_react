@@ -3,6 +3,6 @@
     "title": "Название детали",
     "vendorcode": "Артикул",
     "description": "Описание",
-    "price": "цена",
+    "price": 100,
     "img": "https://cloud.mail.ru/public/NYcA/HRJoVraGY"
 }
