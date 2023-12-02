@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Counter.css'
-import Button from '../Buttons/Button'
+import Button from '../Button/Button'
 
 
 function Counter () {
