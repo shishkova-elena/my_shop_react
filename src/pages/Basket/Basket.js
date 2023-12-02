@@ -8,7 +8,8 @@ function BasketPage () {
 
     return (
         <>
-            <div>
+            <span className="sum-title">Общая сумма </span>
+            <span className="sum-number">
                 {products.reduce((acc, el) => {
 
                     if (basket[el.id]) {
@@ -17,7 +18,7 @@ function BasketPage () {
 
                     return acc
                 }, 0)}
-            </div>
+            </span>
             <div className="Basket">
                 {
                     products

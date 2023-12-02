@@ -5,3 +5,26 @@
     padding: 20px 40px;
     gap: 20px;
 }
+
+.sum-title {
+    color: rgb(119, 119, 226);
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+.sum-number {
+    color: rgb(119, 119, 226);
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+.sum-number::after {
+    content: ' ₽';
+}
+
+.sum {
+    display: flex;
+    justify-content: center;
+}
