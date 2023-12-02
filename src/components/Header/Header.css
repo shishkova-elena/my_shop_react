@@ -19,6 +19,7 @@
 
 .tel {
     font-size: x-large;
+    text-decoration: none;
 }
 
 .Basket {
@@ -32,7 +33,7 @@
 
 .Contacts {
     display: flex;
-    margin-left:  600px;
+    margin-left:  250px;
 }
 
 .map {
@@ -41,7 +42,7 @@
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: large;
+    font-size: small;
 }
 
 a {

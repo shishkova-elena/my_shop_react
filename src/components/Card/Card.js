@@ -33,10 +33,10 @@ function Card ({img, title, id, vendorcode, description, price}) {
                 <img className='Card-img' src={ img }></img>
                 
                 <div className='Card-container'>
-                    <h1 className='Card-title'>{ title }</h1>
-                    <h2>{ vendorcode }</h2>
+                    <h2 className='Card-title'>{ title }</h2>
+                    <h4>{ vendorcode }</h4>
                     <p>{ description }</p>
-                    <div className='Card-price common-price'>{ price }</div>
+                    <h3 className='Card-price common-price'>{ price }</h3>
                     <div className='Card-button'>
                         { !products[id] && <Button onClick={onBuyClick}>Купить</Button> }
                         { products[id] && (
