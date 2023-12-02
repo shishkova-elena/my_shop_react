@@ -7,8 +7,8 @@ import storage from 'redux-persist/lib/storage';
 import thunk from 'redux-thunk';
 
 const persistConfig = {
-    key: 'root',
-    storage,
+    key: 'products',
+    storage
   }
 
   const rootReducer = combineReducers({

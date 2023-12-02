@@ -1,9 +1,49 @@
 .Header {
+    display: flex;
+    align-items: center;
     color: white;
-    background: #9d9ddd8a;
+    background: #9d9ddd18;
     height: 80px;
 }
 
-.Header h1 {
-    margin: 0;
+.img-title {
+    height: 80px;
+}
+
+.quantity {
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #9d9ddd;
+}
+
+.tel {
+    font-size: x-large;
+}
+
+.Basket {
+    align-items: center;
+    text-decoration: none;
+}
+
+.clear {
+    padding: 40px;
+}
+
+.Contacts {
+    display: flex;
+    margin-left:  600px;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+a {
+    color: #1976d2;
 }

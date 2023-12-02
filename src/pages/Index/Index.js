@@ -5,7 +5,6 @@ import * as React from 'react';
 import TextField from '@mui/material/TextField';
 import Button from '../../components/Buttons/Button';
 import { BUTTON_THEMES } from '../../utils/Constants';
-import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProducts } from '../../store/products/productsSlice';
 
@@ -35,7 +34,6 @@ function IndexPage () {
                 <div className='App-search'>
                     <TextField id="outlined-basic" label="E-mail" variant="outlined" />
                     <Button theme={BUTTON_THEMES.light} disabled={isSubscribeButtonDisabled} onClick={onSubscribe}>Подписаться</Button>
-                    <Link to={'contacts'}>Контакты</Link>
                 </div>
                 <div className='App-container'>
                     {
@@ -52,7 +50,7 @@ function IndexPage () {
                     }
 
                     {
-                      isLoading && <h2>Загрузка...</h2>
+                      isLoading && (<h2>Загрузка...</h2>)
                     }
                 </div>
         </>

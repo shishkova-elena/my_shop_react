@@ -40,11 +40,11 @@ function Card ({img, title, id, vendorcode, description, price}) {
                     <div className='Card-button'>
                         { !products[id] && <Button onClick={onBuyClick}>Купить</Button> }
                         { products[id] && (
-                            <>
+                            <div>
                                 <Button onClick={onDeleteClick}>-</Button> 
                                 {products[id]}
                                 <Button onClick={onBuyClick}>+</Button> 
-                            </>
+                            </div>
                         )}
                     </div>
                 </div>

@@ -12,7 +12,7 @@ function BasketPage () {
                 {products.reduce((acc, el) => {
 
                     if (basket[el.id]) {
-                        acc += el.price * basket[el.id]
+                        acc = acc + el.price * basket[el.id]
                     }
 
                     return acc

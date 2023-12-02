@@ -22,14 +22,14 @@ function ProductPage () {
 
     }, [userId])
     return (
-        <div>
+        <>
             <h1>{ product.title }</h1>
             <div>{ product.img }</div>
             <div>{ product.vendorcode }</div>
             <div>{ product.description }</div>
             <div>{ product.price }</div>
             
-        </div>
+        </>
     )
 }
 
