@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import Button from '../Buttons/Button';
+import Button from '../Button/Button';
 import './Card.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { addToBasket, removeFromBasket } from '../../store/basket/basketSlice';

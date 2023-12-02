@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Card from '../../components/Card/Card';
 import * as React from 'react';
 import TextField from '@mui/material/TextField';
-import Button from '../../components/Buttons/Button';
+import Button from '../../components/Button/Button';
 import { BUTTON_THEMES } from '../../utils/Constants';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProducts } from '../../store/products/productsSlice';
