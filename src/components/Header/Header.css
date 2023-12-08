@@ -19,6 +19,12 @@
     text-decoration: none;
 }
 
+.clearBasket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a {
     color: #1976d2;
 }
@@ -37,8 +43,17 @@ a {
         height: calc(80/767*100vw);
     }
 
+    .Basket {
+        font-size: calc(20/767*100vw);
+        height: calc(80/767*100vw);
+        width: calc(300/767*100vw);
+    }
+
     .clearBasket {
-        padding: calc(40/767*100vw);
+        height: calc(80/767*100vw);
+        width: calc(300/767*100vw);
+        font-size: calc(20/767*100vw);
+        padding-left: calc(80/767*100vw);
     }
 }
 
@@ -56,12 +71,22 @@ a {
         height: calc(80/1440*100vw);
     }
 
+    .Basket {
+        font-size: calc(20/1440*100vw);
+        height: calc(80/1440*100vw);
+        width: calc(300/1440*100vw);
+    }
+
     .clearBasket {
-        padding: calc(40/1440*100vw);
+        height: calc(80/1440*100vw);
+        width: calc(300/1440*100vw);
+        font-size: calc(20/1440*100vw);
+        padding-left: calc(80/1440*100vw);
     }
 }
 
 @media screen and (min-width: 1440px) {
+    
     .Header {
         height: calc(80/1440*100vw);
     }
@@ -74,8 +99,17 @@ a {
         height: calc(80/1440*100vw);
     }
 
+    .Basket {
+        font-size: calc(20/1440*100vw);
+        height: calc(80/1440*100vw);
+        width: calc(300/1440*100vw);
+    }
+
     .clearBasket {
-        padding: calc(40/1440*100vw);
+        height: calc(80/1440*100vw);
+        width: calc(300/1440*100vw);
+        font-size: calc(20/1440*100vw);
+        padding-left: calc(80/1440*100vw);
     }
 }
 

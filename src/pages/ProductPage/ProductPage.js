@@ -24,11 +24,17 @@ function ProductPage () {
     return (
         <div className='product'>
             <div className='product-container'>
-                <img className='product-img' src={ product.img }></img>
-                <div className='product-title'>{ product.title }</div>
-                <div className='product-vendorcode'>{ product.vendorcode }</div>
-                <div className='product-description'>{ product.description }</div>
-                <div className='product-price'>{ product.price }</div>
+                <div className='img'>
+                    <img className='product-img' src={ product.img }></img>
+                </div>
+                <div className='product-text'>
+                    <div className='product-text__container'>
+                        <div className='product-title'>{ product.title }</div>
+                        <div className='product-vendorcode'>{ product.vendorcode }</div>
+                        <div className='product-description'>{ product.description }</div>
+                        <div className='product-price'>{ product.price }</div>
+                    </div>
+                </div>
             </div>
         </div>
     )

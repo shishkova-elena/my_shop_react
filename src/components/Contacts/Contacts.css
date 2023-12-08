@@ -1,6 +1,6 @@
 .Contacts {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .tel {
@@ -11,6 +11,41 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: small;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .tel {
+        font-size: calc(25/767*100vw);
+    }
+    
+    .map {
+
+        font-size: calc(20/767*100vw);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .tel {
+        font-size: calc(25/1440*100vw);
+    }
+    
+    .map {
+
+        font-size: calc(20/1440*100vw);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .tel {
+        font-size: calc(25/1440*100vw);
+    }
+    
+    .map {
+
+        font-size: calc(20/1440*100vw);
+    }
 }
 
