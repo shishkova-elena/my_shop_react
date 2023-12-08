@@ -10,22 +10,22 @@ function Header () {
     const basket = useSelector((state) => state.basket)
     return (
             <header className='Header'>
-                <div>
-                    <Button>
-                        <Link to={'basket'} className='Basket'>Корзина</Link>
-                    </Button>
-                </div>
+                        <Link to={'basket'}>
+                            <Button>
+                                <div className='Basket'>Корзина</div>
+                            </Button>
+                        </Link>
                 <div className='quantity'>{ Object.values(basket).reduce((acc, item) => {
                     acc += item
 
                     return acc
                 }, 0) }
                 </div>
-                <div className='clearBasket-container'>
-                    <Button onClick={() => dispatch(clearBasket())}>
-                        <div className='clearBasket'>Очистить корзину</div>
-                    </Button>
-                </div>
+                    <Link>
+                        <Button onClick={() => dispatch(clearBasket())}>
+                            <div className='clearBasket'>Очистить корзину</div>
+                        </Button>
+                    </Link>
             </header>
     )
 }

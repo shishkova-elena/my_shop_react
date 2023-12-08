@@ -15,6 +15,10 @@
     .img-title {
         margin-top: calc(5/767*100vw);
     }
+
+    .img-title-container {
+        height: calc(90/767*100vw);
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1440px) {
@@ -22,11 +26,19 @@
     .img-title {
         margin-top: calc(5/1440*100vw);
     }
+
+    .img-title-container {
+        height: calc(90/1440*100vw);
+    }
 }
 
 @media screen and (min-width: 1440px) {
 
     .img-title {
         margin-top: calc(5/1440*100vw);
+    }
+
+    .img-title-container {
+        height: calc(90/1440*100vw);
     }
 }

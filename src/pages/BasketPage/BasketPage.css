@@ -1,8 +1,9 @@
-.Basket {
+
+
+.Basket-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    padding: 20px 40px;
+    flex-wrap: wrap;
     gap: 20px;
 }
 

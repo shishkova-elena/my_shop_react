@@ -14,9 +14,26 @@
     color: #9d9ddd;
 }
 
+.Basket-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
 .Basket {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
     align-items: center;
     text-decoration: none;
+}
+
+.clearBasket-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clearBasket {

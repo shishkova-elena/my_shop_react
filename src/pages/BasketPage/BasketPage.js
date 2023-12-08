@@ -8,36 +8,36 @@ function BasketPage () {
 
     return (
         <>
-            <span className="sum-title">Общая сумма </span>
-            <span className="sum-number">
-                {products.reduce((acc, el) => {
+                <span className="sum-title">Общая сумма&nbsp;</span>
+                <span className="sum-number">
+                    {products.reduce((acc, el) => {
 
-                    if (basket[el.id]) {
-                        acc = acc + el.price * basket[el.id]
-                    }
+                        if (basket[el.id]) {
+                            acc = acc + el.price * basket[el.id]
+                        }
 
-                    return acc
-                }, 0)}
-            </span>
-            <div className="Basket">
+                        return acc
+                    }, 0)}
+                </span>
+            <div className="Basket-container">
                 {
                     products
                         .filter((product) => !! basket[product.id])
                         .map((item, index) => {
                             return <Card key={index}
-                            title={item.title}
-                            id={item.id}
-                            vendorcode={item.vendorcode}
-                            onClick={(event)=>console.log('clicked', event)}
-                            description={item.description}
-                            price={item.price}
-                            img={item.img} >
-                            Корзина
+                                title={item.title}
+                                id={item.id}
+                                vendorcode={item.vendorcode}
+                                onClick={(event)=>console.log('clicked', event)}
+                                description={item.description}
+                                price={item.price}
+                                img={item.img} >
+                                Корзина
                             </Card>
                         })
                 }
             </div>
-        </>
+            </>
     )
 }
 
