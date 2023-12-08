@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import './ProductPage.css'
 
 
 
@@ -21,14 +22,15 @@ function ProductPage () {
 
     }, [userId])
     return (
-        <>
-            <h1>{ product.title }</h1>
-            <div>{ product.img }</div>
-            <div>{ product.vendorcode }</div>
-            <div>{ product.description }</div>
-            <div>{ product.price }</div>
-            
-        </>
+        <div className='product'>
+            <div className='product-container'>
+                <img className='product-img' src={ product.img }></img>
+                <div className='product-title'>{ product.title }</div>
+                <div className='product-vendorcode'>{ product.vendorcode }</div>
+                <div className='product-description'>{ product.description }</div>
+                <div className='product-price'>{ product.price }</div>
+            </div>
+        </div>
     )
 }
 
