@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import Card from "../../components/Card/Card";
-import './Basket.css'
+import './BasketPage.css'
 
 function BasketPage () {
     const products = useSelector(state=> state.products.entities)

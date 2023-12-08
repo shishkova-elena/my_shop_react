@@ -1,0 +1,48 @@
+.App-search {
+  display: flex;
+  justify-content: center;
+}
+  
+.App-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .App-search {
+    margin-top: calc(15/767*100vw);
+  }
+
+  .App-container {
+    padding: calc(20/767*100vw) calc(40/767*100vw);
+    gap: calc(20/767*100vw);
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .App-search {
+    margin-top: calc(15/1440*100vw);
+  }
+
+  .App-container {
+    padding: calc(20/1440*100vw) calc(40/1440*100vw);
+    gap: calc(20/767*100vw);
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .App-search {
+    margin-top: calc(15/1440*100vw);
+  }
+
+  .App-container {
+    padding: calc(20/1440*100vw) calc(40/1440*100vw);
+    gap: calc(20/767*100vw);
+  }
+
+}

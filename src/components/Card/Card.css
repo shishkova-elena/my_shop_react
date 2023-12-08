@@ -1,14 +1,10 @@
 .Card {
-    height: 500px;
-    width: 250px;
-    border-radius: 15px;
     box-shadow: 3px 2px 10px 4px rgb(91 91 123 / 22%);
     overflow: hidden;
     text-decoration: none;
 }
   
 .Card-img {
-    height: 250px;
     width: 100%;
     object-fit: cover;
 }
@@ -16,12 +12,140 @@
 .Card-container {
     text-align: center;
     vertical-align: middle;
-    padding: 20px;
-    padding: 0;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
 .Card-button {
     justify-content: center;
-    margin-top: 5px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .Card {
+        height: calc(500/767*100vw);
+        width: calc(250/767*100vw);
+        border-radius: calc(15/767*100vw);
+    }
+
+    .Card-img {
+        height: calc(250/767*100vw);
+    }
+
+    .Card-container {
+        margin-top: calc(15/767*100vw);
+        padding: calc(20/767*100vw);
+        padding: calc(0/767*100vw);
+    }
+
+    .Card-title {
+        margin: calc(5/767*100vw);
+        font-size: calc(30/767*100vw);
+    }
+    
+    .Card-vendorcode {
+        margin: calc(5/767*100vw);
+        font-size: calc(25/767*100vw);
+    }
+    
+    .Card-description {
+        margin: calc(5/767*100vw);
+        font-size: calc(20/767*100vw);
+    }
+    
+    .Card-price {
+        margin: calc(5/767*100vw);
+        font-size: calc(30/767*100vw);
+    }
+
+    .Card-button {
+        margin-top: calc(5/767*100vw);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .Card {
+        height: calc(500/1440*100vw);
+        width: calc(250/1440*100vw);
+        border-radius: calc(15/1440*100vw);
+    }
+
+    .Card-img {
+        height: calc(250/1440*100vw);
+    }
+
+    .Card-container {
+        margin-top: calc(15/1440*100vw);
+        padding: calc(20/1440*100vw);
+        padding: calc(0/1440*100vw);
+    }
+
+    .Card-title {
+        margin: calc(5/1440*100vw);
+        font-size: calc(30/1440*100vw);
+    }
+    
+    .Card-vendorcode {
+        margin: calc(5/1440*100vw);
+        font-size: calc(25/1440*100vw);
+    }
+    
+    .Card-description {
+        margin: calc(5/1440*100vw);
+        font-size: calc(20/1440*100vw);
+    }
+    
+    .Card-price {
+        margin: calc(5/1440*100vw);
+        font-size: calc(30/1440*100vw);
+    }
+
+    .Card-button {
+        margin-top: calc(5/1440*100vw);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .Card {
+        height: calc(500/1440*100vw);
+        width: calc(250/1440*100vw);
+        border-radius: calc(15/1440*100vw);
+    }
+
+    .Card-img {
+        height: calc(250/1440*100vw);
+    }
+
+    .Card-container {
+        margin-top: calc(15/1440*100vw);
+        padding: calc(20/1440*100vw);
+        padding: calc(0/1440*100vw);
+    }
+
+    .Card-title {
+        margin: calc(5/1440*100vw);
+        font-size: calc(30/1440*100vw);
+    }
+    
+    .Card-vendorcode {
+        margin: calc(5/1440*100vw);
+        font-size: calc(25/1440*100vw);
+    }
+    
+    .Card-description {
+        margin: calc(5/1440*100vw);
+        font-size: calc(20/1440*100vw);
+    }
+    
+    .Card-price {
+        margin: calc(5/1440*100vw);
+        font-size: calc(30/1440*100vw);
+    }
+
+    .Card-button {
+        margin-top: calc(5/1440*100vw);
+    }
 }
 

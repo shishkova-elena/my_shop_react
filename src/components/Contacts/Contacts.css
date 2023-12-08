@@ -1,0 +1,16 @@
+.Contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.tel {
+    text-decoration: none;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: small;
+}
+

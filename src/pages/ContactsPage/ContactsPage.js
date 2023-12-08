@@ -1,4 +1,4 @@
-import './Contacts.css'
+import './ContactsPage.css'
 
 function ContactsPage () {
     return (

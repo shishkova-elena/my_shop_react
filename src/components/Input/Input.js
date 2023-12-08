@@ -5,12 +5,14 @@ import React from 'react'
 export default class Input extends React.Component {
     render () {
         return (
-            <input className='CommonInput' 
+            <div className='CommonInput'>
+                <input
                    name={this.props.name} 
                    id={this.props.id} 
                    type={this.props.type} 
                    placeholder={this.props.placeholder}>
-            </input>
+                </input>
+            </div>
         )
     }
 }

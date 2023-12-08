@@ -1,25 +1,17 @@
+
+
 .Header {
     display: flex;
+    justify-content: center;
     align-items: center;
     color: white;
     background: #9d9ddd18;
-    height: 80px;
-}
-
-.img-title {
-    height: 80px;
 }
 
 .quantity {
     align-items: center;
-    font-size: 50px;
     font-weight: bold;
     color: #9d9ddd;
-}
-
-.tel {
-    font-size: x-large;
-    text-decoration: none;
 }
 
 .Basket {
@@ -27,24 +19,63 @@
     text-decoration: none;
 }
 
-.clear {
-    padding: 40px;
-}
-
-.Contacts {
-    display: flex;
-    margin-left:  150px;
-}
-
-.map {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: small;
-}
-
 a {
     color: #1976d2;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .Header {
+        height: calc(80/767*100vw);
+    }
+
+    .quantity {
+        font-size: calc(50/767*100vw);
+    }
+
+    .img-title {
+        height: calc(80/767*100vw);
+    }
+
+    .clearBasket {
+        padding: calc(40/767*100vw);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .Header {
+        height: calc(80/1440*100vw);
+    }
+
+    .quantity {
+        font-size: calc(50/1440*100vw);
+    }
+
+    .img-title {
+        height: calc(80/1440*100vw);
+    }
+
+    .clearBasket {
+        padding: calc(40/1440*100vw);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .Header {
+        height: calc(80/1440*100vw);
+    }
+
+    .quantity {
+        font-size: calc(50/1440*100vw);
+    }
+
+    .img-title {
+        height: calc(80/1440*100vw);
+    }
+
+    .clearBasket {
+        padding: calc(40/1440*100vw);
+    }
+}
+

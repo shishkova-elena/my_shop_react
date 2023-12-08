@@ -1,4 +1,4 @@
-import './Index.css'
+import './IndexPage.css'
 import { useEffect, useState } from 'react';
 import Card from '../../components/Card/Card';
 import * as React from 'react';

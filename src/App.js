@@ -2,11 +2,11 @@
 import './App.css';
 import * as React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import IndexPage  from './pages/Index/Index';
-import ContactsPage from './pages/Contacts/Contacts';
+import IndexPage  from './pages/IndexPage/IndexPage';
+import ContactsPage from './pages/ContactsPage/ContactsPage';
 import DefaultLayout from './components/Layouts/DefaultLayout';
-import ProductPage from './pages/Product/Product';
-import BasketPage from './pages/Basket/Basket';
+import ProductPage from './pages/ProductPage/ProductPage';
+import BasketPage from './pages/BasketPage/BasketPage';
 
 
 
